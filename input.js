@@ -1,13 +1,10 @@
 const { connect } = require('./client');
 
+// Call connect() and then load function into variable
 let connVar = connect();
-// Step 2 - Call connect() and then load function into variable
 
-// let connection;
+const setupInput = function() {
 
-const setupInput = function() { // function(conn) - from compass
-  // set up input
-  // connection = conn;
   const stdin = process.stdin; // shorten
   stdin.setRawMode(true); // raw value from console
   stdin.setEncoding('utf8'); // text encoding
@@ -16,9 +13,8 @@ const setupInput = function() { // function(conn) - from compass
   return stdin;
 };
 
-// Step 3 - Access connect and pass input below
+// Access connect and pass input below
 const handleUserInput = function(key) {
-  // console.log(key); // track input
   if (key === '\u0003') {
     process.exit();
   }

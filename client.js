@@ -2,8 +2,8 @@ const net = require('net');
 const { IP, PORT } = require('./constants');
 
 // Establishes connection with the game server
-const connect = function() {  // Step 1 server sets up -> play.js
-  const conn = net.createConnection({ // creates the initial connection
+const connect = function() { 
+  const conn = net.createConnection({
     host: IP,
     port: PORT
   });
@@ -16,9 +16,7 @@ const connect = function() {  // Step 1 server sets up -> play.js
     console.log(`Successfully connected to game server`);
     conn.write(`Name: JL`);
   });
-  // On connection
-  // .on method registers "connect" - then handler (callback function) operates
-
+ 
   // takes input
   conn.on('data', (data) => {
     console.log(`This data was received: ${data}`);
