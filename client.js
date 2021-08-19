@@ -24,7 +24,6 @@ const connect = function() {  // Step 1 server sets up -> play.js
     console.log(`This data was received: ${data}`);
   });
 
-
   return conn;
 };
 

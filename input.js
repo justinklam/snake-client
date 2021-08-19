@@ -37,8 +37,12 @@ const handleUserInput = function(key) {
     console.log(`Right`)
     connVar.write(`Move: right`);
   };
+  if (key === 'q') {
+    connVar.write("Say: haha!");
+  };
+  if (key === 'e') {
+    connVar.write("Say: I Win!");
+  };
 };
-
-// setupInput();
 
 module.exports = { setupInput }
