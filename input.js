@@ -9,7 +9,8 @@ const setupInput = function() {
   stdin.setRawMode(true); // raw value from console
   stdin.setEncoding('utf8'); // text encoding
   stdin.resume();
-  stdin.on('data', handleUserInput);
+  stdin.on('data', handleUserInput); 
+  // whenever data is received by input, execute handleUserInput
   return stdin;
 };
 
