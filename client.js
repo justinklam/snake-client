@@ -17,8 +17,7 @@ const connect = function() {  // Step 1 server sets up -> play.js
     conn.write(`Name: JL`);
   });
   // On connection
-  // .on method registers "connect" - then handler (callback function)
-  // then moves into the function
+  // .on method registers "connect" - then handler (callback function) operates
 
   // takes input
   conn.on('data', (data) => {
