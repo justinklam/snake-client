@@ -9,7 +9,7 @@ const connect = function() {  // Step 1 server sets up -> play.js
   });
 
   // interpret incoming data as text
-  conn.setEncoding('utf8'); 
+  conn.setEncoding('utf8');
 
   // connection message
   conn.on('connection', (connection) => {
