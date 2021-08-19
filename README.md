@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-![Gameplay](#https://user-images.githubusercontent.com/85145076/130138887-9476d6c2-d7f8-4966-8f96-5bbd070bd848.png)
+![Gameplay](https://user-images.githubusercontent.com/85145076/130138887-9476d6c2-d7f8-4966-8f96-5bbd070bd848.png)
 !["screenshot description"](#)
 
 
