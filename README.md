@@ -6,6 +6,9 @@ This is simply a multiplayer take on the genre.
 
 Before you can run this client, you will need to be running the server side which you can download and install from here. 
 
+## Credits
+This game's server code is a heavily modified version of the single player game Snek created by [Tania Rascia](https://github.com/taniarascia).
+
 ## Final Product
 
 ![Gameplay](https://user-images.githubusercontent.com/85145076/130180107-ceeb690b-49e7-4341-8c95-928360f344fd.png)
@@ -14,3 +17,8 @@ Before you can run this client, you will need to be running the server side whic
 
 - Follow steps inside the snek server repo to run the server side
 - Run the development snake client using the `node play.js` command.
+
+## Controls
+
+- Snake is controlled by the WASD keys
+- Taunt your opponent with the Q or E keys. Only taunts are available.
